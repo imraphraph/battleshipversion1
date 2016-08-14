@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SeaGridViewController.h
 //  Battleship
 //
 //  Created by Raphael Lim on 14/08/2016.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SeaGridViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *battleshipButton;
 
 @end
-
