@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SeaGridViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *battleshipButton;
+- (IBAction)battleshipButton:(UIButton *)sender;
 
 @end
